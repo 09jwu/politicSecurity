@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Politic Security</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="home.html">PoliCurity</a>
+  <a href="policyCyberSec.html">Cyber-Security</a>
+  <a href="policyBigTech.html">Regulation of Big Tech</a>
+  <a href="policyRegAI.html">Regulation of AI</a>
+  <a id="contact" href="contactForm.html">Contact Us</a>
+  <a id="donate" href="donate.html">Donate Now</a>
+</div>
+
+<h1>Terms and Conditions</h1>
+
+<h2>Donations</h2>
+
+<ul>
+  <li>Donors giving more than £10 will be subjected to a full background search. We will find you.</li>
+  <li>Donors giving more than £50 will be found, shot, bagged, and sent to a garbage patch. Trust us on this one.</li>
+  <li>Donations must be from the owner's own funds and may not be passed on from a third party. It is an offence to not reveal the true source of the donation. We, once again, will find you.</li>
+  <li>This donation facility is provided for individuals to make donations to the Politic Security company. Other such groups can also make donations to Politic Security inc.</li>
+</ul>
+
+<h2>Emails</h2>
+
+<ul>
+  <li>By sending an email you take on full responsibility for any repercussions which may occur from said email.</li>
+  <li>If you complain about our product, consider your life forfeited.</li>
+  <li>If you choose to send an email telling us about how nice our website is, we know, don't be such a suck up.</li>
+</ul>
+
+<script src="contactForm.js"></script>
+
+</body>
+</html>
