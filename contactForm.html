@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<div class="topnav">
+
+    <a id="home" href="home.html">PoliCurity</a>
+
+    <div class="dropdown">
+
+        <button class="dropbtn">Policies<i class="fa fa-caret-down"></i></button>
+
+        <div class="dropdown-content">
+
+            <a href="policyRegAI.html">Regulation of AI</a>
+            <a href="policyBigTech.html">Regulation of Big Tech</a>
+            <a href="policyCyberSec.html">Cyber-Security</a>
+
+        </div>
+
+    </div>
+
+    <a class="active" id="contact" href="contactForm.html">Contact Us</a>
+
+    <a id="donate" href="donate.html">Donate Now</a>
+
+    <a id="join" href="join.html">Join Us</a>
+
+</div>
+
+<div class="div"><div class="div-border"><h1 id="title">Contacts</h1></div></div>
+
+<div class="hdiv"><div class="hdiv-border"><h3>Here is a list of the management department and their emails: </h3></div></div>
+
+<ul>
+    <li>Junjiang Wu: 09jwu@brightoncollege.net</li>
+    <li>Peter Zhu: 09pzhu@brightoncollege.net</li>
+    <li>Yuri Zykov: 09yzykov@brightoncollege.net</li>
+</ul>
+
+<p><u>If you have anything you would like to ask any of us please send an email through the contact form below: </u></p>
+
+<form onsubmit="validateForm()">
+    <label>Email: </label><br>
+    <input id="email" type="email"/><br>
+    <label>Subject: </label><br>
+    <input id="sbj"/><br>
+    <label>Message: </label><br>
+    <textarea id="msg" rows="6" columns="100" maxwidth="300"></textarea><br>
+    <input id="submit" type="submit"/>
+</form>
+
+<script src="contactForm.js"></script>
+
+</body>
+</html>

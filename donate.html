@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donate</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+<div class="topnav">
+
+    <a id="home" href="home.html">PoliCurity</a>
+
+    <div class="dropdown">
+
+        <button class="dropbtn">Policies<i class="fa fa-caret-down"></i></button>
+
+        <div class="dropdown-content">
+
+            <a href="policyRegAI.html">Regulation of AI</a>
+            <a href="policyBigTech.html">Regulation of Big Tech</a>
+            <a href="policyCyberSec.html">Cyber-Security</a>
+
+        </div>
+
+    </div>
+
+    <a id="contact" href="contactForm.html">Contact Us</a>
+
+    <a class="active" id="donate" href="donate.html">Donate Now</a>
+
+    <a id="join" href="join.html">Join Us</a>
+
+</div>
+
+<h1>Donate Now</h1>
+
+<h2>Give us money pls</h2>
+
+<h3>This website took time</h3>
+
+<h4>Please</h4>
+
+<h5>Money...</h5>
+
+<!-- The form -->
+<div class="form-popup">
+    <form action="/action_page.php" class="form-container">
+        <h1>Donation</h1>
+
+        <label for="amount"><b>Amount</b></label>
+        <input type="text" placeholder="Enter Amount" name="amount" required>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+</div>
+
+<script src="donateForm.js"></script>
+
+</body>
+</html>
